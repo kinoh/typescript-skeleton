@@ -23,7 +23,8 @@
 				"-v"
 			],
 			"type": "shell",
-			"group": "build"
+			"group": "build",
+			"problemMatcher": []
 		}
 	]
 }
