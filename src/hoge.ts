@@ -1,8 +1,8 @@
 export class Hoge {
 	/**
-	 * Show the message.
+	 * Double the number.
 	 */
-	public showMessage(message: string): void {
-		alert(message);
+	public double(value: number): number {
+		return 2 * value;
 	}
 }
