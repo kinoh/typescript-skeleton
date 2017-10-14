@@ -25,6 +25,21 @@
 			"type": "shell",
 			"group": "build",
 			"problemMatcher": []
+		},
+		{
+			"taskName": "mocha",
+			"command": "mocha",
+			"args": [
+				"--require",
+				"espower-typescript/guess",
+				"test/**/*.test.ts"
+			],
+			"type": "shell",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"problemMatcher": []
 		}
 	]
 }
